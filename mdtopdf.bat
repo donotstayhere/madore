@@ -1,1 +1,1 @@
-pandoc idea.md -o idea.pdf --pdf-engine=xelatex -s -N --listings --template default -V papersize=a4 -V documentclass=bxjsarticle -V classoption=pandoc -V classoption=jafont=ipaex -V fontsize=11pt -V urlcolor=blue
+pandoc sample.md -o sample.pdf --pdf-engine=xelatex -s -N --listings --template madore -V papersize=a4 -V documentclass=bxjsarticle -V classoption=pandoc -V classoption=jafont=ipaex -V fontsize=11pt -V urlcolor=blue
