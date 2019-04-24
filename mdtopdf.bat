@@ -1,1 +1,1 @@
-pandoc sample.md -o sample.pdf --pdf-engine=xelatex -s -N --listings --template madore -V papersize=a4 -V documentclass=bxjsarticle -V classoption=pandoc -V classoption=jafont=ipaex -V fontsize=11pt -V urlcolor=blue
+pandoc report.md -o report.pdf --pdf-engine=xelatex -s -N -F pandoc-crossref --listings --template madore -V papersize=a4 -V documentclass=bxjsreport -V classoption=pandoc -V classoption=jafont=yu-win10 -V fontsize=11pt -V linkcolor=black
