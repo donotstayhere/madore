@@ -228,6 +228,7 @@ $endif$
 $if(verbatim-in-note)$
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
+%geometry is controled by BXjscls you can change layout using \setpagelayout
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 \geometry{top=1in,left=1in,bottom=1in,right=1in}
@@ -371,7 +372,18 @@ $endif$
 \subtitle{$subtitle$}
 $endif$
 $if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
+\author{
+$for(author)$
+$if(author.name)$
+$if(author.id-number)$ 
+$author.id-number$
+\\
+$endif$
+$author.name$
+$else$
+$author$
+$endif$
+$endfor$}
 $endif$
 \date{$date$}
 $if(beamer)$
@@ -386,10 +398,14 @@ $if(logo)$
 $endif$
 $endif$
 
-\setlength{\parindent}{0pt}
+%usersetting
+%paragraph indent
+%\setlength{\parindent}{0pt}
+%paragraph space
 \setlength{\parskip}{1em}
 
-\setpagelayout*{top=1.2in,left=1in,bottom=1.2in,right=1in}
+%layout
+\setpagelayout*{top=1in,left=1in,bottom=1in,right=1in}
 
 \begin{document}
 $if(has-frontmatter)$
