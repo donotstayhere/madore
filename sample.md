@@ -10,11 +10,14 @@ classoption:
 - jafont=ipaex
 fontsize: 11pt
 linkcolor: black
+listings: true
+codeBlockCaptions: true
 ---
 
 # タイトル
+[@lst:code]に示す
 
-```python
+```{#lst:code .python caption="Listing caption"}
 for i in range(10):
   print('hello')
 ```

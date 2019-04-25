@@ -1,1 +1,1 @@
-pandoc sample.md -o sample.pdf --pdf-engine=xelatex -s -N --listings --template madore
+pandoc sample.md -o sample.pdf --pdf-engine=xelatex -s -N -F pandoc-crossref --template madore --listings
