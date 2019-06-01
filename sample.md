@@ -1,8 +1,10 @@
 ---
-title: サンプルレポート
-author:
-- name: サンプル 名前
+title: Madore
+author: 
+- name: サンプル\ 名前
   id-number: 12345678
+- name: ジョン\ ワトソン
+  id-number: 87654321
 papersize: a4
 documentclass: bxjsreport
 classoption:
