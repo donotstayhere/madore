@@ -16,8 +16,15 @@ listings: true
 codeBlockCaptions: true
 ---
 
-# タイトル
-[@lst:code]に示す
+# Title
+
+## Title
+
+### Title
+
+# Code
+
+[@lst:code] is a sample code
 
 ```{#lst:code .python caption="Listing caption"}
 for i in range(10):
