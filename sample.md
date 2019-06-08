@@ -1,7 +1,7 @@
 ---
 title: Madore
 author: 
-- name: サンプル\ 名前
+- name: sample\ name
   id-number: 12345678
 - name: ジョン\ ワトソン
   id-number: 87654321
@@ -20,7 +20,7 @@ codeBlockCaptions: true
 
 ## Title
 
-### Title
+### タイトル
 
 # Code
 
