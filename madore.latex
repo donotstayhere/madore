@@ -408,7 +408,7 @@ $endif$
 %layout
 \setpagelayout*{top=0.5in,left=1in,bottom=1in,right=1in}
 
-%ページ番号を下にずらす
+%slide page numbers
 \setlength{\footskip}{10truemm}
 
 \renewcommand{\thesection}{\arabic{section}}
